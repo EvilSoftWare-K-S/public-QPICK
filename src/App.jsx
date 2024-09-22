@@ -1,29 +1,38 @@
 
 import React from 'react';
 import { Routes, Route } from "react-router-dom"
+import { useState } from 'react';
+
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import ProductSShell from './page/ProductSShell';
 import CartShell from './page/CartShell';
-import PaymentForm from './page/PaymentForm'
+import PaymentForm from './page/PaymentForm';
 import ErrorPage from './page/ErrorPage';
-import './css/background.css'
-import { useState } from 'react';
+
+// import './css/universal.css';
+// import './css/header.css';
+// import './css/product-shell.css';
+// import './css/cart-shell.css';
+
+import './css/background.css';
+
+import './css/universal.css';
+import './css/header.css';
+import './css/product-shell.css';
+import './css/cart-shell.css';
+
+import './css/payment-form.css'
+import './css/error-page.css';
+import './css/footer.css';
+import './css/media.css'
+
 import changePlusLocSt from "./components/Func/changePlusLocSt"
 import changeMinusLocSt from "./components/Func/changeMinusLocSt"
 import spliceItemLocSt from "./components/Func/deleteItemLocSt"
 
-
 const App = () =>{
 let local = JSON.parse(localStorage.getItem("CardProducts"))||[];
-
-// let card={
-//   isFlip:false,
-//   name:"",
-//   cardNumber:"",
-//   date:"",
-//   code:"",
-// }
 
 const [Obj,setObj]=useState(local);
 
