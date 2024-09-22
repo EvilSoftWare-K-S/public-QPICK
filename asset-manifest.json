@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/public-QPICK/static/css/main.a916a93b.css",
+    "main.js": "/public-QPICK/static/js/main.6d691ed3.js",
+    "static/media/Image3.png": "/public-QPICK/static/media/Image3.1e509cc722755fbe569e.png",
+    "static/media/Image6.png": "/public-QPICK/static/media/Image6.0771d2250370d09e90db.png",
+    "static/media/Image5.png": "/public-QPICK/static/media/Image5.45840b28b628681d7eb0.png",
+    "static/media/Image1.png": "/public-QPICK/static/media/Image1.1e887984c5147fc177ac.png",
+    "static/media/Image4.png": "/public-QPICK/static/media/Image4.40283da195c7c6431ec5.png",
+    "static/media/Image2.png": "/public-QPICK/static/media/Image2.8b09968d4079a2b593eb.png",
+    "static/media/VK.svg": "/public-QPICK/static/media/VK.86d7355f7059ceae85e8050b4b38b1c5.svg",
+    "static/media/Whatsapp.svg": "/public-QPICK/static/media/Whatsapp.0c2329b4108061b8ed5e2dd34b03e774.svg",
+    "static/media/lang.svg": "/public-QPICK/static/media/lang.a0f8cac9e284b6743e2920c0f3901ab7.svg",
+    "static/media/cart.svg": "/public-QPICK/static/media/cart.06ef4916435e454f7c5af107a66b981d.svg",
+    "static/media/Telegram.svg": "/public-QPICK/static/media/Telegram.bd4ba04c6ef12158241ef715cc4b3180.svg",
+    "static/media/TrashCart.svg": "/public-QPICK/static/media/TrashCart.ff4b5ebaa208313e1393fe841aeb817a.svg",
+    "static/media/favorite.svg": "/public-QPICK/static/media/favorite.272ca0abb379b2d29841c65f8735257b.svg",
+    "index.html": "/public-QPICK/index.html",
+    "static/media/rate.svg": "/public-QPICK/static/media/rate.b132dfcc964b56e4b0be43f3b73de5e8.svg",
+    "static/media/plus.svg": "/public-QPICK/static/media/plus.e620f68f20d05316bab81f09ddd203de.svg",
+    "static/media/minus.svg": "/public-QPICK/static/media/minus.6a6969784e7be070e4805ecb52ec006b.svg",
+    "main.a916a93b.css.map": "/public-QPICK/static/css/main.a916a93b.css.map",
+    "main.6d691ed3.js.map": "/public-QPICK/static/js/main.6d691ed3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a916a93b.css",
+    "static/js/main.6d691ed3.js"
+  ]
+}
