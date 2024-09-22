@@ -26,7 +26,7 @@ body{
   text-align: left;
 }
 .black-focus-button{
-  border: rgb(16, 16, 16);
+  border:2px solid rgb(16, 16, 16);
   color: rgb(255, 255, 255);
   height: 65px;
   border-radius: 20px;

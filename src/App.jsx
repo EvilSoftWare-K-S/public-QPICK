@@ -15,8 +15,6 @@ import ErrorPage from './page/ErrorPage';
 // import './css/product-shell.css';
 // import './css/cart-shell.css';
 
-import './css/background.css';
-
 import './css/universal.css';
 import './css/header.css';
 import './css/product-shell.css';

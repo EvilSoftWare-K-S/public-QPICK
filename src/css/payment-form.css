@@ -85,7 +85,7 @@
   border: none;
 }
 .person__confirm-name__input{
-  border:solid rgb(16, 16, 16);
+  border: 2px solid rgb(16, 16, 16);
   width: 200px;
   height: 32.5px;
   border-radius:0px 10px 0px 0px;
@@ -93,7 +93,7 @@
   border-left: none;
 }
 .person__confirm-email__input{
-  border:solid rgb(16, 16, 16);
+  border: 2px solid rgb(16, 16, 16);
   width: 200px;
   height: 32.5px;
   border-radius:0px 0px 10px 0px;
@@ -122,10 +122,14 @@
   line-height: 18px;
   padding: 22px;
   display: flex;
+  flex-direction: column;
+  align-content: space-around;
   justify-content: center;
-  flex-direction: row;
 }
-
+.action-inner__sum__text{
+  display: flex;
+  justify-content: space-between;
+}
 .confirm-button-submit{
   justify-self: bottom;
   color: rgb(255, 255, 255);

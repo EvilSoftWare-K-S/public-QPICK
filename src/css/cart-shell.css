@@ -1,0 +1,130 @@
+/*Cart*/
+.CartShell{
+  display:grid;
+  grid-template-areas: "title title"
+                       "prod buy";
+  grid-template-rows: min-content auto;
+  gap:30px;
+}
+.CartShell-title{
+  grid-area: title;
+}
+.CartShell-prod{
+  grid-area: prod;
+  display: flex;
+  gap:30px;
+  flex-direction: column;
+}
+
+.CartShell-products-info{
+  display: grid;
+  grid-template-areas: "image info trashCart"
+                       "image info trashCart";
+  grid-template-columns: repeat(3,1fr);
+  padding: 18px 30px 15px 30px;
+}
+.CartShell-products-info-img img{
+ height: 140px;
+ width: 140px;
+}
+.CartShell-products-info-img{
+  grid-area: image;
+}
+.CartShell-products-info-title-{
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+}
+.CartShell-products-info-title{
+color: rgb(28, 28, 39);
+font-size: 17px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+}
+.CartShell-products-info-price{
+  color: rgb(170, 170, 170);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+}
+.CartShell-products-info-trashCart{
+ 
+  grid-area: trashCart;
+  justify-self: end;
+}
+
+.CartShell-products-info-trashCart-button{
+  background:transparent;
+  border: none;
+}
+
+.CartShell-products{
+  max-width: 640px;
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 255, 255);
+}
+.CartShell-products-panel{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px 15px 30px;
+  
+}
+.CartShell-products-panel-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 140px;
+}
+
+
+.CartShell-products-panel-button{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 206, 127);
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: rgb(255, 206, 127);
+}
+.minus{
+  background: rgb(190, 190, 190);
+  border: rgb(190, 190, 190);
+}
+.CartShell-buy{
+  grid-area: buy;
+  display: grid;
+  max-width: 350px;
+  width: 100%;
+  max-height: 130px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 255, 255);
+  justify-self:end;
+}
+.CartShell-buy-finalyPrice{
+  padding: 22px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  justify-self: top;
+}
+.CartShell-buy-button{
+  justify-self: bottom;
+  width: 100%;
+  
+}
+/*Cart*/

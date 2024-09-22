@@ -100,9 +100,9 @@ const PaymentForm = (prop) =>{
         <div className='confirmation'>
           <div className='action-inner'> 
             <div className="action-inner__sum">
-              <div>
-                ЗАКАЗ НА СУММУ:
-                {handleSum()}{" ₽"}
+              <div className='action-inner__sum__text'>
+                <div>ИТОГО</div>
+                <div>{handleSum()}{" ₽"}</div> 
               </div>  
             </div>
 

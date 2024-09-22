@@ -25,10 +25,9 @@
     transform: scale(1);
   }
   .black-focus-button:hover{
-    border:solid rgb(16, 16, 16);
+    border: 2px solid rgb(16, 16, 16);
     color: rgb(16, 16, 16);
     background-color: #FFFFFF;
-    border-color: rgb(16, 16, 16);
   }
   
 }
